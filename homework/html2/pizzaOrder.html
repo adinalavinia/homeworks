@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <fieldset>
+        <legend>Pizza order</legend>
+    <form action="" method="get">
+        <br>
+        <label for="yourName">Your name:</label>
+        <input required type="text" id="yourName" name="yourName" minlength="3" maxlength="10">
+        <br>
+        <br>
+
+        <label for="email">Your email:</label>
+        <input required type="email" id="email" name="email">
+        <br>
+        <br>
+
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" min="1" max="7">
+        <br>
+        <br>
+
+        Topping:
+        <input type="radio" name="topping" value="supreme" id="supreme">
+        <label for="supreme">Supreme</label>
+
+        <input type="radio" name="topping" value="vegetarian" id="vegetarian">
+        <label for="vegetarian">Vegetarian</label>
+
+        <input type="radio" name="topping" value="hawaiian" id="hawaiian">
+        <label for="hawaiian">Hawaiian</label>
+
+        <br>
+        <br>
+
+        <label for="sauce">Sauce:</label>
+        <select id="sauce" name="sauce">
+            <option value="tomato">Tomato</option>
+            <option value="tobasco">Tobasco</option>
+            <option value="pineapple">Pineapple</option>
+        </select>
+
+        <br>
+        <br>
+
+            Extras:
+            <input type="checkbox" name="extras" id="cheese" value="cheese">
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" name="extras" id="onion" value="cheese">
+            <label for="onion">Onion</label>
+            <input type="checkbox" name="extras" id="olives" value="olives">
+            <label for="olives">Olives</label>
+
+        <br>
+        <br>
+
+        <label for="instructions">Delivery instructions:</label>
+        <br>
+        <textarea required id="instructions" name="instructions"></textarea>
+        <br>
+        <br>
+
+        <!-- <label for="deliveryDate1">Delivery date:</label>
+        <input type="date" id="deliveryDate1" name="deliveryDate1" max="2035-12-31" min="2020-01-31"> -->
+
+        <br>
+        Starting Date:
+        <input type="text" placeholder="MM/DD/YYYY" onfocus="(this.type='date')" id="date">
+        Ending date:
+        <input type="text" placeholder="MM/DD/YYYY" onfocus="(this.type='date')" id="date">
+
+
+        <br>
+        <br>
+        <input type="submit" value="Send order">
+
+        <br>
+        <br>
+        <input type="reset">
+
+
+
+    </form>
+    </fieldset>
+</body>
+</html>
