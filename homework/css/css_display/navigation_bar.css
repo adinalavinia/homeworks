@@ -1,0 +1,12 @@
+header li {
+    list-style: none;
+    display: inline;
+}
+
+header {
+    background-color: yellow;
+}
+
+
+
+
