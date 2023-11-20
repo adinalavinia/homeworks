@@ -1,20 +1,20 @@
-/* body {
+body {
     padding: 0;
     margin: 0;
-} */
+}
 
 .navBar {
     list-style: none;
     background-color: yellow;
-    padding: 15px;
+    padding: 2px;
     margin: 0;
     text-align: center;
 
 }
 
-/* .navBar li {
+.navBar li {
     display: inline-block;
-} */
+}
 
 .navBar a {
     display: inline-block;
@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-/* .navBar a:hover{
+/* li:hover{
     background-color: rgb(158, 150, 150);
 } */
 
