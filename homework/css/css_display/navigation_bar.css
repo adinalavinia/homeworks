@@ -3,26 +3,34 @@ body {
     margin: 0;
 }
 
-.navBar {
-    list-style: none;
+body {
+    height: 100vh;;
+}
+
+header {
     background-color: yellow;
-    padding: 2px;
-    margin: 0;
-    text-align: center;
-
+    height: 80px;
+    width: 100%;
 }
 
-.navBar li {
-    display: inline-block;
-}
-
-.navBar a {
-    display: inline-block;
-    width: 100px;
+header ul {
+    margin:0;
+    padding: 0;
     text-align: center;
 }
 
-/* li:hover{
-    background-color: rgb(158, 150, 150);
-} */
+li {
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+a {
+    display: block;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
 
