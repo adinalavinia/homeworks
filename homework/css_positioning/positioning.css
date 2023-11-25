@@ -21,7 +21,7 @@ body {
 .yellow {
     background-color: yellow;
     position: absolute;
-    top: 50%;
+    margin-top: 50%;
     left: 50%;
     transform: translate(-50%);
     
