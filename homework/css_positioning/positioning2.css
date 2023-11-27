@@ -4,18 +4,19 @@
 } */
 
 .parent {
-    width: 1000px;
-    height: 400px;
+    width: 980px;
+    height: 350px;
     background-color: #bbc9b8;
     filter: brightness(90%);
     background-clip: border-box;
-    border: 8px dotted #c44dff;
+    border: 8px dotted #84589b;
     border-radius: 15px;
     position: relative;
 }
 
 h2 {
     text-align: center;
+    margin-top: 20px;
     font-size: xxx-large;
     text-transform: uppercase;
 }
@@ -23,10 +24,10 @@ h2 {
 .child-child1 {
     width: 350px;
     height: 250px;
-    top: 1px;
-    background-color: #508e8a;
+    top: 0px;
+    background-color: #569b96;
     background-clip: border-box;
-    border-color: #c44dff;
+    border-color: #84589b;
     border-width: 5px;
     border-style: dashed;
     border-radius: 15px;
@@ -35,13 +36,13 @@ h2 {
 }
 
 .child-child2 {
-    width: 400px;
-    height: 270px;
-    bottom: 0px;
-    left: 300px;
-    background-color: #a391a4;
+    width: 370px;
+    height: 250px;
+    bottom: -8px;
+    left: 270px;
+    background-color: #b09db1;
     background-clip: border-box;
-    border-color: #c44dff;
+    border-color: #84589b;
     border-width: 5px;
     border-style: dashed;
     border-radius: 15px;
@@ -50,13 +51,13 @@ h2 {
 }
 
 .child-child3 {
-    width: 400px;
-    height: 270px;
-    bottom: 0px;
-    right: 20px;
-    background-color: #a8a97c;
+    width: 350px;
+    height: 250px;
+    top: 40px;
+    right: 25px;
+    background-color: #babb8b;
     background-clip: border-box;
-    border-color: #c44dff;
+    border-color: #84589b;
     border-width: 5px;
     border-style: dashed;
     border-radius: 15px;
