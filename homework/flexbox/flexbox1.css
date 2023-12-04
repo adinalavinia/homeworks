@@ -3,10 +3,6 @@ html, body {
     padding: 0;
 }
 
-html, body, .layout {
-    height: 100%;
-    min-height: 100%;
-}
 
 .title {
     font-size: 20px;
@@ -36,7 +32,8 @@ html, body, .layout {
     font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: black;
     padding-left: 15px;
-
+    padding-top: 15px;
+    
 }
 
 .subtitleBottom {
@@ -45,6 +42,45 @@ html, body, .layout {
     color: black;
     padding-left: 15px;
 
+}
+
+.layout {
+    width: 850px;
+    height: 1000px;
+    display: flex;
+    flex-flow: wrap;
+    align-content: flex-start;
+}
+
+.middle-tile, .tall-tile {
+    display: flex;
+    flex-wrap: column wrap;
+}
+
+.top-tile {
+    width: 240px;
+    height: 120px;
+    margin: 10px;
+    background-color: #00d2b2;
+    display: inline-block;
+}
+
+.bottom-tile {
+    width: 240px;
+    height: 120px;
+    margin: 10px;
+    margin-top: -10px;
+    background-color: #ffde49;
+}
+
+
+.middle-tile {
+    width: 240px;
+    height: 260px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #2d70df;
+    position: relative;
 }
 
 .image {
@@ -63,52 +99,13 @@ html, body, .layout {
     padding: 40px;
 }
 
-.layout {
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-
-
-.top-tile {
-    width: 240px;
-    height: 120px;
-    margin: 10px;
-    background-color: #00d2b2;
-}
-
-
-
-.middle-tile {
-    width: 240px;
-    height: 260px;
-    margin: 10px;
-    background-color: #2d70df;
-    position: relative;
-}
-
-.bottom-tile {
-    width: 240px;
-    height: 120px;
-    margin: 10px;
-    background-color: #ffde49;
-}
-
-
-
-
-
-
-
-
 
 .wide-tile {
     width: 500px;
     height: 280px;
     margin: 10px;
     background-color: #ff345d;
+    display: inline-block;
 
 }
 
@@ -117,4 +114,7 @@ html, body, .layout {
     height: 560px;
     margin: 10px;
     background-color: #06d35a;
+    display: inline-block;
+    position: absolute;
+    left: 520px;
 }
