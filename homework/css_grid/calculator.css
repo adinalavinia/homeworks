@@ -8,8 +8,117 @@ body {
 
 }
 
-.header {
-    width: 300px;
-    height: 100px;
+.calculator-standard {
+    width: 600px;
+    height: 900px;
     display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 150px 50px 80px 80px 80px 80px 80px 80px;
+}
+
+
+.name {
+    grid-column: 1 /span 5;
+    grid-row: 1;
+    margin-left: 10px;
+    color: grey;
+}
+
+.minimize {
+    grid-column: 9;
+    grid-row: 1;
+    color: grey;
+}
+
+.maximize {
+    grid-column: 10;
+    grid-row: 1;
+    color: grey;
+}
+
+.close {
+    grid-column: 11 ;
+    grid-row: 1;
+    color: grey;
+}
+
+.bars {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.standard {
+    font-size: 30px;
+    grid-column: 3 / span 4;
+    grid-row: 2;
+}
+
+.square {
+    grid-column: 7;
+    grid-row: 2;
+}
+
+.clock {
+    grid-column: 11;
+    grid-row: 2;
+
+}
+
+.total {
+    grid-column: 11 ;
+    grid-row: 3;
+    font-size: 60px;
+}
+
+.mc {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.mr {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.m-plus {
+    grid-column: 5;
+    grid-row: 4;
+}
+
+.m-minus {
+    grid-column: 7;
+    grid-row: 4;
+}
+
+.ms {
+    grid-column: 9;
+    grid-row: 4;
+}
+
+.m {
+    grid-column: 11;
+    grid-row: 4;
+}
+
+.percent {
+    grid-column: 1;
+    grid-row: 5;
+
+}
+
+.ce {
+    grid-column: 4;
+    grid-row: 5;
+
+}
+
+.c {
+    grid-column: 7;
+    grid-row: 5;
+
+}
+
+.erase {
+    grid-column: 10;
+    grid-row: 5;
 }
