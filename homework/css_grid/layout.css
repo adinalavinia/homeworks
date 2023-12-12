@@ -12,7 +12,7 @@ html, body {
 }
 
 .sidebar {
-    width: 50px;
+    width: 60px;
     height: 900px;
     color: white;
     display: grid;
@@ -25,9 +25,10 @@ html, body {
 .recently-added {
     display: inline-block;
     width: 350px;
-    height: 900px;
+    height: 880px;
     grid-template-rows: repeat(40,70px);
     grid-column: 2;
+    margin-top: 10px;
     color: white;
     overflow-x: hidden;
     overflow-y: auto;
@@ -43,14 +44,10 @@ html, body {
     margin-right: 10px;
 }
 
-/* .recently-added > div {
-    display: inline-block;
-} */
-
 a {
     display: block;
     text-decoration: none;
-    padding: 10px 2px;
+    padding: 5px 2px;
     color: white;
 }
 
@@ -64,5 +61,10 @@ a {
     grid-gap: 3px;
     border: 8px solid #2a2928;
     box-sizing: border-box;
-    padding: 10px;
+    /* padding: 10px; */
+}
+
+.productivity {
+    color: white;
+    margin: 20px;
 }
