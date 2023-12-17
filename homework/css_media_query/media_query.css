@@ -1,6 +1,14 @@
 @media screen and (max-width: 720px) {
-    .container div {
+    .container {
         width: 50%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.8fr 0.4fr 0.4fr 0.5fr;
+        grid-template-areas: 
+        "header"
+        "lorem"
+        "aside1"
+        "aside2"
+        "footer";
     }
     
     .header {
@@ -22,18 +30,22 @@
     .lorem {
         background-color: chartreuse;
     }
-
-
-
 }
 
+@media print {
+    .container {
+        display: none;
+        background-color: white;
+        color: black;
+    }
+}
 
 body, html {
     margin: 0;
     padding: 0;
 }
 
-.container {
+/* .container {
     width: 600px;
     height: 200px;
     display: grid;
@@ -71,6 +83,41 @@ body, html {
     grid-column: 3;
     grid-row: 2;
     background-color: #ee73b2;
+} */
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+    grid-template-rows: 0.3fr 1.5fr 0.3fr;
+    grid-template-areas: 
+    "header header header"
+    "aside1 lorem aside2"
+    "footer footer footer";
+    text-align: center;
 }
 
+.header {
+    grid-area: header;
+    background-color: #ed6d52;
+}
 
+.footer {
+    grid-area: footer;
+    background-color: #a8eb99;
+}
+
+.aside1 {
+    grid-area: aside1;
+    background-color: #f9d748;
+}
+
+.lorem {
+    grid-area: lorem;
+    background-color: #55bdf9;
+}
+
+.aside2 {
+    grid-area: aside2;
+    background-color: #ee73b2;
+}

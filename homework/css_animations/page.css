@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: darkcyan;
+    padding-top: 30px;
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    animation: title 3s forwards infinite;
+}
+
+@keyframes title {
+    0% {
+        top: -80px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+
+p {
+    position: relative;
+    animation: text 3s forwards infinite;
+}
+
+@keyframes text {
+    0% {
+        left: -300px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+button {
+    border: 1px solid white;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    animation: fadein 3s forwards infinite ;
+}
+
+@keyframes fadein {
+    0% { 
+        opacity: 0; 
+    }
+    50% { 
+        opacity: 0; 
+    }
+    100% { 
+        opacity: 1;
+    }
+}
