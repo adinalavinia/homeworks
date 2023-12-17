@@ -32,6 +32,12 @@
     }
 }
 
+@media print {
+    .container {
+        background-color: white;
+        color: black;
+    }
+}
 
 body, html {
     margin: 0;
