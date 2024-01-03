@@ -28,16 +28,16 @@ console.log("Suma numerelor este: " + sumObject);
 
 // BONUS: creati un program care afiseaza primele 20 numere din sirul lui Fibonacci;
 
-let num = prompt("Enter the limit of Fibonacci Series:");
+// let num = prompt("Enter the limit of Fibonacci Series:");
+let num = 20;
 let num1 = 0;
 let num2 = 1;
 console.log(num1);
 console.log(num2);
-let next_num;
 
 
-for(let i = 0; i <= num; i++){
-    next_num = num1 + num2;
+for(let i = 3; i <= num; i++){
+    let next_num = num1 + num2;
     console.log(next_num);
     num1 = num2;
     num2 = next_num;
