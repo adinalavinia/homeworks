@@ -1,3 +1,5 @@
+const table = document.querySelector('.table');
+
 for(let i = 1; i < 9; i++){
     let box1 = document.createElement('div');
     if(i % 2 == 0){
@@ -7,7 +9,7 @@ for(let i = 1; i < 9; i++){
     }
     table.appendChild(box1);
 }
-// box1
+
 
 for(let i = 1; i < 9; i++){
     let box2 = document.createElement('div');
