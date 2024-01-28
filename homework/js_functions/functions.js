@@ -4,7 +4,7 @@
 const firstSentence = 'Ion castiga 5000 lei/luna din salariu, 10000 lei/an bonus si 1500 lei/luna din freelancing.';
 
 // computeIncome(firstSentence); Venitul anual al lui Ion este de 88000 lei.  60 000 + 10 000 + 18 000
-// computeIncome(secondSentence); Venitul anual al lui Andrei este de 124790,4 lei.
+// computeIncome(secondSentence); Venitul anual al lui Andrei este de 124790,4 lei.    59 400 + 9 000 + 28 200
 
 function income1(){
     const firstSentenceArray = firstSentence.split(' ');
