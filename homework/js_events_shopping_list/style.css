@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
@@ -35,13 +36,28 @@
   background-color: rgb(35, 39, 39);
   color: white;
   border-radius: 7px;
+  cursor: pointer;
 }
 .container main .list {
   padding: 10px;
   border: 1px solid rgb(226, 226, 226);
-  border-radius: 5px;
+  border-radius: 6px;
 }
-.container main .items {
-  display: grid;
+.container main .items-list {
+  display: flex;
+  flex-direction: column;
   border: 1px solid rgb(226, 226, 226);
+  border-radius: 6px;
+}
+.container main .items-list p {
+  display: block;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 10px;
+  cursor: pointer;
+}
+.container main .items-list #span {
+  display: none;
+  width: 10px;
+  height: 10px;
+  padding: 8px;
 }/*# sourceMappingURL=style.css.map */
