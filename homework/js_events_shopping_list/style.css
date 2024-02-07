@@ -30,7 +30,7 @@
   border: 1px solid rgb(226, 226, 226);
   border-radius: 3px;
 }
-.container main button {
+.container main .button {
   width: 70px;
   height: 30px;
   background-color: rgb(35, 39, 39);
@@ -48,16 +48,27 @@
   flex-direction: column;
   border: 1px solid rgb(226, 226, 226);
   border-radius: 6px;
+  list-style-type: none;
 }
-.container main .items-list p {
-  display: block;
+.container main .items-list li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
   border-bottom: 1px solid rgb(226, 226, 226);
   padding: 10px;
+}
+.container main .items-list li .delete-button {
+  width: 20px;
+  height: 20px;
   cursor: pointer;
 }
-.container main .items-list #span {
-  display: none;
+.container main .items-list .deleteBtn2 {
+  padding: 5px;
   width: 10px;
   height: 10px;
-  padding: 8px;
+  cursor: pointer;
+  background-color: aqua;
+}
+.container main .items-list li:hover {
+  background-color: bisque;
 }/*# sourceMappingURL=style.css.map */
